@@ -190,98 +190,291 @@ public class Carta {
 		return color;
 	}
 	
-	public String colorPac() {
-		String color = "background-color: ";
+	public String colorBarraPac() {
+		String color = "";
 		if (this.pac < 50) {
-			color = color + "#F44336; color: white";
+			color = "background-color: #F44336";
 		} else if (this.pac < 70) {
-			color = color + "#FB8C00; color: white;";
+			color = "background-color: #FB8C00;";
 		} else if (this.pac < 80) {
-			color = color + "#E9BC0B; color: black;";
+			color = "background-color: #E9BC0B;";
 		} else if (this.pac < 90) {
-			color = color + "#4CAF50; color: white;";
+			color = "background-color: #4CAF50;";
 		} else {
-			color = color + "#09720D; color: white";
+			color = "background-color: #09720D;";
+		}
+		return color;
+	}
+	
+	public String colorNumPac() {
+		String color = "";
+		if (this.pac < 50) {
+			color = "color: #F44336";
+		} else if (this.pac < 70) {
+			color = "color: #FB8C00;";
+		} else if (this.pac < 80) {
+			color = "color: #E9BC0B;";
+		} else if (this.pac < 90) {
+			color = "color: #4CAF50;";
+		} else {
+			color = "color: #09720D;";
+		}
+		return color;
+	}
+	
+	public String colorPac() {
+		String color = "";
+		if (this.pac < 50) {
+			color = "statColorRojo";
+		} else if (this.pac < 70) {
+			color = "statColorNaranja";
+		} else if (this.pac < 80) {
+			color = "statColorAmarillo";
+		} else if (this.pac < 90) {
+			color = "statColorVerdeClaro";
+		} else {
+			color = "statColorVerdeOscuro";
 		}
 		return color;
 	}
 	
 	public String colorSho() {
-		String color = "background-color: ";
+		String color = "";
 		if (this.sho < 50) {
-			color = color + "#F44336; color: white";
+			color = "statColorRojo";
 		} else if (this.sho < 70) {
-			color = color + "#FB8C00; color: white;";
+			color = "statColorNaranja";
 		} else if (this.sho < 80) {
-			color = color + "#E9BC0B; color: black;";
+			color = "statColorAmarillo";
 		} else if (this.sho < 90) {
-			color = color + "#4CAF50; color: white;";
+			color = "statColorVerdeClaro";
 		} else {
-			color = color + "#09720D; color: white";
+			color = "statColorVerdeOscuro";
+		}
+		return color;
+	}
+	
+	public String colorBarraSho() {
+		String color = "";
+		if (this.sho < 50) {
+			color = "background-color: #F44336";
+		} else if (this.sho < 70) {
+			color = "background-color: #FB8C00;";
+		} else if (this.sho < 80) {
+			color = "background-color: #E9BC0B;";
+		} else if (this.sho < 90) {
+			color = "background-color: #4CAF50;";
+		} else {
+			color = "background-color: #09720D;";
+		}
+		return color;
+	}
+	
+	public String colorNumSho() {
+		String color = "";
+		if (this.sho < 50) {
+			color = "color: #F44336";
+		} else if (this.sho < 70) {
+			color = "color: #FB8C00;";
+		} else if (this.sho < 80) {
+			color = "color: #E9BC0B;";
+		} else if (this.sho < 90) {
+			color = "color: #4CAF50;";
+		} else {
+			color = "color: #09720D;";
 		}
 		return color;
 	}
 
 	public String colorPas() {
-		String color = "background-color: ";
+		String color = "";
 		if (this.pas < 50) {
-			color = color + "#F44336; color: white";
+			color = "statColorRojo";
 		} else if (this.pas < 70) {
-			color = color + "#FB8C00; color: white;";
+			color = "statColorNaranja";
 		} else if (this.pas < 80) {
-			color = color + "#E9BC0B; color: black;";
+			color = "statColorAmarillo";
 		} else if (this.pas < 90) {
-			color = color + "#4CAF50; color: white;";
+			color = "statColorVerdeClaro";
 		} else {
-			color = color + "#09720D; color: white";
+			color = "statColorVerdeOscuro";
+		}
+		return color;
+	}
+	
+	public String colorBarraPas() {
+		String color = "";
+		if (this.pas < 50) {
+			color = "background-color: #F44336";
+		} else if (this.pas < 70) {
+			color = "background-color: #FB8C00;";
+		} else if (this.pas < 80) {
+			color = "background-color: #E9BC0B;";
+		} else if (this.pas < 90) {
+			color = "background-color: #4CAF50;";
+		} else {
+			color = "background-color: #09720D;";
+		}
+		return color;
+	}
+	
+	public String colorNumPas() {
+		String color = "";
+		if (this.pas < 50) {
+			color = "color: #F44336";
+		} else if (this.pas < 70) {
+			color = "color: #FB8C00;";
+		} else if (this.pas < 80) {
+			color = "color: #E9BC0B;";
+		} else if (this.pas < 90) {
+			color = "color: #4CAF50;";
+		} else {
+			color = "color: #09720D;";
 		}
 		return color;
 	}
 	
 	public String colorDri() {
-		String color = "background-color: ";
+		String color = "";
 		if (this.dri < 50) {
-			color = color + "#F44336; color: white";
+			color = "statColorRojo";
 		} else if (this.dri < 70) {
-			color = color + "#FB8C00; color: white;";
+			color = "statColorNaranja";
 		} else if (this.dri < 80) {
-			color = color + "#E9BC0B; color: black;";
+			color = "statColorAmarillo";
 		} else if (this.dri < 90) {
-			color = color + "#4CAF50; color: white;";
+			color = "statColorVerdeClaro";
 		} else {
-			color = color + "#09720D; color: white";
+			color = "statColorVerdeOscuro";
 		}
 		return color;
 	}
 	
-	public String colorDef() {
-		String color = "background-color: ";
-		if (this.def < 50) {
-			color = color + "#F44336; color: white";
-		} else if (this.def < 70) {
-			color = color + "#FB8C00; color: white;";
-		} else if (this.def < 80) {
-			color = color + "#E9BC0B; color: black;";
-		} else if (this.def < 90) {
-			color = color + "#4CAF50; color: white;";
+	public String colorBarraDri() {
+		String color = "";
+		if (this.dri < 50) {
+			color = "background-color: #F44336";
+		} else if (this.dri < 70) {
+			color = "background-color: #FB8C00;";
+		} else if (this.dri < 80) {
+			color = "background-color: #E9BC0B;";
+		} else if (this.dri < 90) {
+			color = "background-color: #4CAF50;";
 		} else {
-			color = color + "#09720D; color: white";
+			color = "background-color: #09720D;";
+		}
+		return color;
+	}
+	
+	public String colorNumDri() {
+		String color = "";
+		if (this.dri < 50) {
+			color = "color: #F44336";
+		} else if (this.dri < 70) {
+			color = "color: #FB8C00;";
+		} else if (this.dri < 80) {
+			color = "color: #E9BC0B;";
+		} else if (this.dri < 90) {
+			color = "color: #4CAF50;";
+		} else {
+			color = "color: #09720D;";
+		}
+		return color;
+	}
+	
+	
+	public String colorDef() {
+		String color = "";
+		if (this.def < 50) {
+			color = "statColorRojo";
+		} else if (this.def < 70) {
+			color = "statColorNaranja";
+		} else if (this.def < 80) {
+			color = "statColorAmarillo";
+		} else if (this.def < 90) {
+			color = "statColorVerdeClaro";
+		} else {
+			color = "statColorVerdeOscuro";
+		}
+		return color;
+	}
+	
+	public String colorBarraDef() {
+		String color = "";
+		if (this.def < 50) {
+			color = "background-color: #F44336";
+		} else if (this.def < 70) {
+			color = "background-color: #FB8C00;";
+		} else if (this.def < 80) {
+			color = "background-color: #E9BC0B;";
+		} else if (this.def < 90) {
+			color = "background-color: #4CAF50;";
+		} else {
+			color = "background-color: #09720D;";
+		}
+		return color;
+	}
+	
+	public String colorNumDef() {
+		String color = "";
+		if (this.def < 50) {
+			color = "color: #F44336";
+		} else if (this.def < 70) {
+			color = "color: #FB8C00;";
+		} else if (this.def < 80) {
+			color = "color: #E9BC0B;";
+		} else if (this.def < 90) {
+			color = "color: #4CAF50;";
+		} else {
+			color = "color: #09720D;";
 		}
 		return color;
 	}
 	
 	public String colorPhy() {
-		String color = "background-color: ";
+		String color = "";
 		if (this.phy < 50) {
-			color = color + "#F44336; color: white";
+			color = "statColorRojo";
 		} else if (this.phy < 70) {
-			color = color + "#FB8C00; color: white;";
+			color = "statColorNaranja";
 		} else if (this.phy < 80) {
-			color = color + "#E9BC0B; color: black;";
+			color = "statColorAmarillo";
 		} else if (this.phy < 90) {
-			color = color + "#4CAF50; color: white;";
+			color = "statColorVerdeClaro";
 		} else {
-			color = color + "#09720D; color: white";
+			color = "statColorVerdeOscuro";
+		}
+		return color;
+	}
+	
+	public String colorBarraPhy() {
+		String color = "";
+		if (this.phy < 50) {
+			color = "background-color: #F44336";
+		} else if (this.phy < 70) {
+			color = "background-color: #FB8C00;";
+		} else if (this.phy < 80) {
+			color = "background-color: #E9BC0B;";
+		} else if (this.phy < 90) {
+			color = "background-color: #4CAF50;";
+		} else {
+			color = "background-color: #09720D;";
+		}
+		return color;
+	}
+	
+	public String colorNumPhy() {
+		String color = "";
+		if (this.phy < 50) {
+			color = "color: #F44336";
+		} else if (this.phy < 70) {
+			color = "color: #FB8C00;";
+		} else if (this.phy < 80) {
+			color = "color: #E9BC0B;";
+		} else if (this.phy < 90) {
+			color = "color: #4CAF50;";
+		} else {
+			color = "color: #09720D;";
 		}
 		return color;
 	}

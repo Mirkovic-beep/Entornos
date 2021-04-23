@@ -3719,5 +3719,88 @@ div.mm-dropdown ul li img {
     overflow-x: hidden;
 }
     
+    /*Clases propias*/
     
+.imagenLiga {
+	width: 40px;;
+	height: auto;
+}
+
+.imagenBandera {
+	width: 50px;
+	height: auto;
+	margin: 1rem;
+}
+
+.imagenEscudo {
+	width: 75px;
+	height: auto;
+}
+
+.fotoJugador {
+	width: 50px;
+	height: auto;
+}
+
+.fotoEscudo {
+	width: 80px;
+	height: auto;
+	margin: 1rem;
+}
     
+.fotoLiga {
+	width: 50px;
+	height: auto;
+}
+
+.bandera {
+	width: 50px;
+	height: auto;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.cartaFotoJugador {
+	width: 100px;
+	height: auto;
+}
+
+.cartaEscudo {
+	width: 30px;
+	height: auto;
+}
+
+.cartaBandera {
+	width: 40px;
+	height: auto;
+}
+
+.statColorRojo {
+	background-color: #F44336;
+	color: white;
+}
+
+.statColorAmarillo {
+	background-color: #E9BC0B;
+	color: black;
+}
+
+.statColorNaranja {
+	background-color: #FB8C00;
+	color: white;
+}
+
+.statColorVerdeClaro {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.statColorVerdeOscuro {
+	background-color: #09720D;
+	color: white
+}
+
+.stat {
+	padding: 1rem;
+	text-align: center;
+}

@@ -8,10 +8,12 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BDController controlador = new BDController();
-		ArrayList<Carta> cartas = controlador.dameCartas();
-		ArrayList<Jugador> jugadores = controlador.dameJugadores();
-		System.out.println(controlador.dameCartaSimple(jugadores.get(5).getCod_jugador()).getNombre());
-		System.out.println(jugadores.get(5).getCod_jugador());
+		
+		System.out.println(controlador.dameCarta("Simple", 1).getRat());
+		System.out.println(controlador.dameCarta("toty", 1).getRat());
+		System.out.println(controlador.dameCarta("if", 1).getRat());
+		System.out.println(controlador.dameCarta("motm", 1).getRat());
+
 	}
 
 }
